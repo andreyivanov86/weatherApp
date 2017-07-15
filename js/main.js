@@ -82,7 +82,6 @@ $(document).ready(function () {
             success: function(weather) {
                 
                 globalWeather = weather;
-                console.log(weather);
                 //Current Weather
                 htmlLocation = weather.city + ", " + weather.region;
                 htmlWeather = '<i class = "icon-' + weather.code + '"></i>' + " " + weather.temp + ' &deg' + 
